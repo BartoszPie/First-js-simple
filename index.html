@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="rating.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+<!-- Rating state start -->
+
+<div class="wrapper main">
+    <div class="container-width">
+        <button class="container-button star-button"><img src="images/icon-star.svg" alt=""></button>
+        <p class="container-title">How did we do?</p>
+
+        <p class="container-text">Please let us know how we did with your support request. All feedback is appreciated
+            to help us improve our offering!</p>
+
+        <div class="container-buttons-wrapper">
+            <button class="container-button button-hovering">1</button>
+            <button class="container-button button-hovering">2</button>
+            <button class="container-button button-hovering">3</button>
+            <button class="container-button button-hovering">4</button>
+            <button class="container-button button-hovering">5</button>
+        </div>
+
+        <button class="container-submit">Submit</button>
+    </div>
+</div>
+
+<!-- Rating state end -->
+
+<!-- Thank you state start -->
+
+<div class="wrapper thanks">
+    <div class="container-width">
+        <img class="thanks-img" src="images/illustration-thank-you.svg" alt="">
+
+        <button class="thanks-button">You selected <span class="rateNr"> </span> out of 5</button>
+
+        <p class="container-title thanks-center">Thank you!</p>
+
+        <p class="container-text thanks-center">We appreciate you taking the time to give a rating. If you ever need
+            more support,
+            don’t hesitate to get in touch!</p>
+    </div>
+</div>
+<!-- Thank you state end -->
+
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/BartoszPie">Bartosz Pietrus</a>.
+</div>
+
+<script src="rating.js"></script>
+
+</body>
+</html>
